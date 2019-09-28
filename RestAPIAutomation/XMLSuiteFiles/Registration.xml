@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Employee Registration API Suite">
+	<parameter name="hostUrl"
+		value="http://restapi.demoqa.com/customer" />
+	<listeners>
+		<listener class-name="com.restUtils.AnnotationTransformer" />
+		<listener class-name="com.restUtils.TestListener" />
+	</listeners>
+	<test name="Registration Testcases">
+		<classes>
+			<class name="com.restAssuredTestCases.RegistrationTC" />
+		</classes>
+	</test>
+</suite> 

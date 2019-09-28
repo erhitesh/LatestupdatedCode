@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Extent Report Suite">
+<!-- thread-count="3" parallel="tests"> -->
+	<listeners>
+		<listener class-name="com.utils.TestListener" />
+		<listener class-name="com.utils.AnnotationTransformer" />
+	</listeners>
+	<test name="Login Test Case">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.testCases.TC_LoginTest" />
+		</classes>
+	</test> <!-- Sample Test -->
+
+</suite> <!-- Extent Report Suite -->

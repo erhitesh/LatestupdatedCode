@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Employee API Suite" preserve-order="true">
+	<parameter name="hostUrl"
+		value="http://dummy.restapiexample.com/api/v1" />
+	<listeners>
+		<listener class-name="com.restUtils.AnnotationTransformer" />
+		<listener class-name="com.restUtils.TestListener" />
+	</listeners>
+	<test name="TC001_Get_Employees_Record">
+		<classes>
+			<class
+				name="com.restAssuredTestCases.TC001_Get_Employees_Record" />
+		</classes>
+	</test>
+
+	<test name="TC002_Get_Employee_Record">
+		<classes>
+			<class
+				name="com.restAssuredTestCases.TC002_Get_Employee_Record" />
+		</classes>
+	</test>
+
+	<test name="TC003_Post_Employee_Record">
+		<classes>
+			<class
+				name="com.restAssuredTestCases.TC003_Post_Employee_Record" />
+		</classes>
+	</test>
+
+	<test name="TC004_Put_Employee_Record">
+		<classes>
+			<class
+				name="com.restAssuredTestCases.TC004_Put_Employee_Record" />
+		</classes>
+	</test>
+
+	<test name="TC005_Delete_Employee_Record">
+		<classes>
+			<class
+				name="com.restAssuredTestCases.TC005_Delete_Employee_Record" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="To Test API Different Suites" thread-count="3"
+	parallel="tests">
+	<listeners>
+		<listener class-name="com.restUtils.Reporting" />
+	</listeners>
+
+	<suite-files>
+		<suite-file path="Registration.xml" />
+		<suite-file path="Weather.xml" />
+		<suite-file path="Employee.xml" />
+	</suite-files>
+</suite>

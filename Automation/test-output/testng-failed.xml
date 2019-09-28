@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Extent Report Suite]">
+  <listeners>
+    <listener class-name="com.utils.TestListener"/>
+    <listener class-name="com.utils.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Login Test Case(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testCases.TC_LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateLoginCredentialTest"/>
+          <include name="clearJunkData"/>
+        </methods>
+      </class> <!-- com.testCases.TC_LoginTest -->
+    </classes>
+  </test> <!-- Login Test Case(failed) -->
+</suite> <!-- Failed suite [Extent Report Suite] -->

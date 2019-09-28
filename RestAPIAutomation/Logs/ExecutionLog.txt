@@ -1,0 +1,130 @@
+2019-08-29 23:33:19 INFO  RestAssuredApiTesting:21 - ************************* Started getCityInfo ************************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:32 - ******************  Checking Response Body **************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:34 - Response Body ==>{
+    "City": "City",
+    "Temperature": "3.8200000000001 Degree celsius",
+    "Humidity": "74 Percent",
+    "WeatherDescription": "broken clouds",
+    "WindSpeed": "3.1 Km per hour",
+    "WindDirectionDegree": "140 Degree"
+}
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:41 - ******************  Checking Status Code **************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:43 - Status Code ==>200
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:50 - ******************  Checking Response Time **************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:52 - Response Time is ==>3044
+2019-08-29 23:33:24 WARN  RestAssuredApiTesting:55 - Response Time is greater than 2000
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:50 - ******************  Checking Response Time **************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:52 - Response Time is ==>3044
+2019-08-29 23:33:24 WARN  RestAssuredApiTesting:55 - Response Time is greater than 2000
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:63 - ******************  Checking Status Line **************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:65 - Status Line is ==>HTTP/1.1 200 OK
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:72 - ******************  Checking Content Type **************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:74 - Content Type is ==>application/json
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:81 - ******************  Checking Content Encoding **************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:83 - Content Encoding is ==>gzip
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:90 - ******************  Checking Server Type **************
+2019-08-29 23:33:24 INFO  RestAssuredApiTesting:92 - Server type is  ==>nginx
+2019-08-29 23:34:58 INFO  RestAssuredApiTesting:22 - ************************* Started getCityInfo ************************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:33 - ******************  Checking Response Body **************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:35 - Response Body ==>{
+    "City": "City",
+    "Temperature": "3.8200000000001 Degree celsius",
+    "Humidity": "74 Percent",
+    "WeatherDescription": "broken clouds",
+    "WindSpeed": "3.1 Km per hour",
+    "WindDirectionDegree": "140 Degree"
+}
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:42 - ******************  Checking Status Code **************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:44 - Status Code ==>200
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:51 - ******************  Checking Response Time **************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:53 - Response Time is ==>2931
+2019-08-29 23:35:03 WARN  RestAssuredApiTesting:56 - Response Time is greater than 2000
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:51 - ******************  Checking Response Time **************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:53 - Response Time is ==>2931
+2019-08-29 23:35:03 WARN  RestAssuredApiTesting:56 - Response Time is greater than 2000
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:64 - ******************  Checking Status Line **************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:66 - Status Line is ==>HTTP/1.1 200 OK
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:73 - ******************  Checking Content Type **************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:75 - Content Type is ==>application/json
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:82 - ******************  Checking Content Encoding **************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:84 - Content Encoding is ==>gzip
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:91 - ******************  Checking Server Type **************
+2019-08-29 23:35:03 INFO  RestAssuredApiTesting:93 - Server type is  ==>nginx
+2019-08-29 23:42:47 INFO  RestAssuredApiTesting:22 - ************************* Started getCityInfo ************************
+2019-08-29 23:42:52 INFO  RestAssuredApiTesting:33 - ******************  Checking Response Body **************
+2019-08-29 23:42:52 INFO  RestAssuredApiTesting:35 - Response Body ==>{
+    "City": "City",
+    "Temperature": "3.8200000000001 Degree celsius",
+    "Humidity": "74 Percent",
+    "WeatherDescription": "broken clouds",
+    "WindSpeed": "3.1 Km per hour",
+    "WindDirectionDegree": "140 Degree"
+}
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:48 - ******************  Checking Status Code **************
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:50 - Status Code ==>200
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:57 - ******************  Checking Response Time **************
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:59 - Response Time is ==>3226
+2019-08-29 23:43:52 WARN  RestAssuredApiTesting:62 - Response Time is greater than 2000
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:57 - ******************  Checking Response Time **************
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:59 - Response Time is ==>3226
+2019-08-29 23:43:52 WARN  RestAssuredApiTesting:62 - Response Time is greater than 2000
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:70 - ******************  Checking Status Line **************
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:72 - Status Line is ==>HTTP/1.1 200 OK
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:79 - ******************  Checking Content Type **************
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:81 - Content Type is ==>application/json
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:88 - ******************  Checking Content Encoding **************
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:90 - Content Encoding is ==>gzip
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:97 - ******************  Checking Server Type **************
+2019-08-29 23:43:52 INFO  RestAssuredApiTesting:99 - Server type is  ==>nginx
+2019-08-30 00:52:09 INFO  RestAssuredApiTesting:21 - ************************* Started getCityInfo ************************
+2019-08-30 00:52:14 INFO  RestAssuredApiTesting:32 - ******************  Checking Response Body **************
+2019-08-30 00:52:14 INFO  RestAssuredApiTesting:34 - Response Body ==>{
+    "City": "City",
+    "Temperature": "3.65 Degree celsius",
+    "Humidity": "95 Percent",
+    "WeatherDescription": "broken clouds",
+    "WindSpeed": "4.1 Km per hour",
+    "WindDirectionDegree": "170 Degree"
+}
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:47 - ******************  Checking Status Code **************
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:49 - Status Code ==>200
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:56 - ******************  Checking Response Time **************
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:58 - Response Time is ==>2667
+2019-08-30 00:53:14 WARN  RestAssuredApiTesting:61 - Response Time is greater than 2000
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:56 - ******************  Checking Response Time **************
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:58 - Response Time is ==>2667
+2019-08-30 00:53:14 WARN  RestAssuredApiTesting:61 - Response Time is greater than 2000
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:69 - ******************  Checking Status Line **************
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:71 - Status Line is ==>HTTP/1.1 200 OK
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:78 - ******************  Checking Content Type **************
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:80 - Content Type is ==>application/json
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:87 - ******************  Checking Content Encoding **************
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:89 - Content Encoding is ==>gzip
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:96 - ******************  Checking Server Type **************
+2019-08-30 00:53:14 INFO  RestAssuredApiTesting:98 - Server type is  ==>nginx
+2019-08-30 00:58:52 INFO  RestAssuredApiTesting:21 - ************************* Started getCityInfo ************************
+2019-08-30 00:58:56 INFO  RestAssuredApiTesting:32 - ******************  Checking Response Body **************
+2019-08-30 00:58:56 INFO  RestAssuredApiTesting:34 - Response Body ==>{
+    "City": "City",
+    "Temperature": "3.65 Degree celsius",
+    "Humidity": "95 Percent",
+    "WeatherDescription": "broken clouds",
+    "WindSpeed": "4.1 Km per hour",
+    "WindDirectionDegree": "170 Degree"
+}
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:41 - ******************  Checking Status Code **************
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:43 - Status Code ==>200
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:50 - ******************  Checking Response Time **************
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:52 - Response Time is ==>2645
+2019-08-30 00:58:57 WARN  RestAssuredApiTesting:55 - Response Time is greater than 2000
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:50 - ******************  Checking Response Time **************
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:52 - Response Time is ==>2645
+2019-08-30 00:58:57 WARN  RestAssuredApiTesting:55 - Response Time is greater than 2000
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:63 - ******************  Checking Status Line **************
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:65 - Status Line is ==>HTTP/1.1 200 OK
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:72 - ******************  Checking Content Type **************
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:74 - Content Type is ==>application/json
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:81 - ******************  Checking Content Encoding **************
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:83 - Content Encoding is ==>gzip
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:90 - ******************  Checking Server Type **************
+2019-08-30 00:58:57 INFO  RestAssuredApiTesting:92 - Server type is  ==>nginx

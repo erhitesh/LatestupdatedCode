@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calculator Mobile Suite" >
+<!-- thread-count="1" parallel="tests"> -->
+	<listeners>
+		<listener class-name="com.utils.AnnotationTransformer" />
+		<listener class-name="com.utils.TestListener" />
+	</listeners>
+	<test name="Perform Calculator Test">
+		<parameter name="deviceInfo" value="emulator-5554 Android 8.1.0 8202" />
+		<classes>
+			<class name="com.appiumTestCases.CalculatorTest">
+			<methods>
+			<include name = "performAddition" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+</suite> 
